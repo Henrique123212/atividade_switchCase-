@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendamento de Assentos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Agendamento de Assentos de Avião</h1>
+    <div id="seat-map">
+        <!-- Assentos serão gerados pelo JavaScript -->
+    </div>
+    <div id="controls">
+        <input type="text" id="buyer-name" placeholder="Nome do comprador">
+        <button onclick="purchaseSeats()">Comprar</button>
+        <button onclick="generateReport()">Gerar Relatório</button>
+    </div>
+    <div id="report">
+        <!-- Relatório será gerado aqui -->
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
